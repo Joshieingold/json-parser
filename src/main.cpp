@@ -5,19 +5,19 @@
 using namespace std;
 
 int main(int argc, char *argv[]) {
-  // Get the file
-  std::fstream file{"../src/CanadianaQuiz.json"};
-  std::string content{};
-  std::string line{};
+    // Get the file
+    std::fstream file{"../src/CanadianaQuiz.json"};
+    std::string content{};
+    std::string line{};
 
-  // Put the contents into a string,
-  while (std::getline(file, line)) {
-    content += line + "\n";
-  }
+    // Put the contents into a string,
+    while (std::getline(file, line)) {
+        content += line + "\n";
+    }
 
-  // Parse
-  JsonParser::JsonParser json_parser{content};
+    // Parse
+    JsonParser::JsonParser json_parser{content};
 
-  prettyPrint(json_parser.parse());
-  return 0;
+    prettyPrint(json_parser.parse());
+    return 0;
 }
