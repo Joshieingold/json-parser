@@ -1,0 +1,100 @@
+{
+    "title": "Canadiana Quiz",
+    "questions": [
+        {
+            "questionText": "Which province is NOT part of the Prairies?",
+            "choices": ["Alberta", "Manitoba", "Ontario", "Saskatchewan"],
+            "answer": 2
+        },
+        {
+            "questionText": "Which one of the following singers is NOT Canadian?",
+            "choices": [
+                "Justin Bieber",
+                "Celine Dion",
+                "Drake",
+                "Avril Lavigne",
+                "Taylor Swift"
+            ],
+            "answer": 4
+        },
+        {
+            "questionText": "What is a Chinook?",
+            "choices": [
+                "a canoe",
+                "a type of fox",
+                "an warm, dry wind",
+                "a celebration of a successful harvest"
+            ],
+            "answer": 2
+        },
+        {
+            "questionText": "Which province is the birthplace of Poutine?",
+            "choices": [
+                "Newfoundland and Labrador",
+                "Nova Scotia",
+                "Quebec",
+                "Saskatchewan"
+            ],
+            "answer": 2
+        },
+        {
+            "questionText": "Which province was NOT part of Canada in 1867?",
+            "choices": [
+                "Alberta",
+                "Ontario",
+                "New Brunswick",
+                "Nova Scotia",
+                "Quebec"
+            ],
+            "answer": 0
+        },
+        {
+            "questionText": "Where is the delta of the Mackenzie River?",
+            "choices": [
+                "Arctic Ocean",
+                "Atlantic Ocean",
+                "Pacific Ocean",
+                "none of the above"
+            ],
+            "answer": 0
+        },
+        {
+            "questionText": "What is Canada's only offically bilingual province?",
+            "choices": [
+                "British Columbia",
+                "New Brunswick",
+                "Quebec",
+                "Saskatchewan"
+            ],
+            "answer": 1
+        },
+        {
+            "questionText": "What animal appears on the Canadian nickel (five cent coin)?",
+            "choices": ["beaver", "loon", "moose", "owl", "polar bear"],
+            "answer": 0
+        },
+        {
+            "questionText": "Which one of the following actors is NOT Canadian?",
+            "choices": [
+                "Rachel McAdams",
+                "Sandra Oh",
+                "Keanu Reeves",
+                "Seth Rogen",
+                "Adam Sandler"
+            ],
+            "answer": 4
+        },
+
+        {
+            "questionText": "A double-double refers to a type of ... ?",
+            "choices": [
+                "automobile",
+                "coffee",
+                "hockey game",
+                "snow storm",
+                "tax"
+            ],
+            "answer": 1
+        }
+    ]
+}
