@@ -4,7 +4,7 @@
         {
             "questionText": "Which province is NOT part of the Prairies?",
             "choices": ["Alberta", "Manitoba", "Ontario", "Saskatchewan"],
-            "answer": 2
+            "answer": -2
         },
         {
             "questionText": "Which one of the following singers is NOT Canadian?",

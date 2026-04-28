@@ -20,7 +20,7 @@ JsonValue JsonParser::parse() {
     case '"':
         return JsonValue{handle_string()};
     default:
-        if (std::isdigit(c)) {
+        if (std::isdigit(c) or c == '-') {
             return JsonValue{handle_number()};
         } else if (auto kw{try_handle_keyword()}; kw.has_value()) {
             return *kw;
@@ -37,6 +37,9 @@ JsonValue JsonParser::parse() {
 
 double JsonParser::handle_number() {
     size_t start{m_current};
+    if (current() == '-') {
+        advance();
+    }
     while (std::isdigit(current()) && !is_at_end()) {
         advance();
     }
