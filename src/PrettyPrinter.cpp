@@ -1,4 +1,4 @@
-#include "JsonParser.h" // Make sure this includes your JsonValue definition
+#include "JsonParser.h"
 #include <iostream>
 #include <string>
 #include <variant>
@@ -6,7 +6,6 @@
 void prettyPrint(const JsonParser::JsonValue &jsonValue, int indent = 0) {
     const std::string indentStr(indent, ' ');
 
-    // Helper lambda to handle different types
     auto printValue = [&](const auto &val) {
         using T = std::decay_t<decltype(val)>;
         if constexpr (std::is_same_v<T,
