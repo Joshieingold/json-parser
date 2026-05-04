@@ -22,8 +22,8 @@ class JsonParser {
     char advance();
     char current();
     void consume(char c, std::string_view msg);
-    bool is_at_end();
     bool try_consume(char c);
+    bool is_at_end();
 
   private:
     std::string m_source_code{};

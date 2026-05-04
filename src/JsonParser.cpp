@@ -1,6 +1,5 @@
 #include "JsonParser.h"
 #include <cstddef>
-#include <iostream>
 #include <optional>
 #include <stdexcept>
 #include <unordered_map>
@@ -109,7 +108,6 @@ JsonValue::Object JsonParser::handle_object() {
     while (!try_consume('}')) {
         whitespace();
         auto key{handle_string()};
-        std::cout << key;
         whitespace();
         consume(':', "Expected colon seperator between key value pair");
         whitespace();

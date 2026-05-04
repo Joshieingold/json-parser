@@ -18,6 +18,7 @@ int main(int argc, char *argv[]) {
     // Parse
     JsonParser::JsonParser json_parser{content};
 
+    // For viewing :)
     prettyPrint(json_parser.parse());
     return 0;
 }
